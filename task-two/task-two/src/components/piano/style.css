@@ -1,0 +1,17 @@
+.grid-container {
+  display: grid;
+  gap: 0px;
+}
+
+.grid-cell {
+  background-color:#FDFDFD ;
+  border: 1px solid #F4F4F4;
+  height: 100px;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease;
+}
+
+/* Purple box style */
+.grid-cell.purple {
+  background-color: #7646CE;
+}
